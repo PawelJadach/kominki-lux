@@ -21,8 +21,8 @@ export default function NavLink({
 				className={cn(
 					"transition-all hover:opacity-90 text-light",
 					filled
-						? "bg-primary px-4 py-2 rounded-lg"
-						: "hover:bg-primary rounded-lg px-2 py-1",
+						? "bg-primary px-4 py-2"
+						: "hover:bg-primary px-2 py-1",
 					mobile && "text-lg",
 				)}
 			>

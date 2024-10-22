@@ -10,19 +10,19 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				dark: "black",
+				dark: "#333333",
 				light: "#fff",
 				secondaryLight: "#e5e5e5",
-				primary: "#fca311",
+				primary: "#119DA4",
 				secondary: "#14213d",
 			},
 			container: {
 				padding: {
 					DEFAULT: "1rem",
 					sm: "2rem",
-					lg: "4rem",
-					xl: "5rem",
-					"2xl": "6rem",
+					lg: "2rem",
+					xl: "0",
+					"2xl": "0",
 				},
 				center: true,
 				screens: {
